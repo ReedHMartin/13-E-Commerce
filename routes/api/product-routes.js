@@ -5,13 +5,13 @@ const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // get all products
 router.get('/', (req, res) => {
-  // find all products
+  // TODO: find all products
   // be sure to include its associated Category and Tag data
 });
 
 // get one product
 router.get('/:id', (req, res) => {
-  // find a single product by its `id`
+  // TODO:find a single product by its `id`
   // be sure to include its associated Category and Tag data
 });
 
